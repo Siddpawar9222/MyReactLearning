@@ -1,0 +1,39 @@
+why states
+ Whenever you want to reflect the changes made by the user in web page .You have to use state in  react . without react the changes will not reflect in the web pages .
+  
+Here is Example 
+function ExpenseItem(props) {
+    let  title = props.desc ; 
+
+    const ClickFunction =()=>{
+         title = "New title.....";
+         console.log(title);            // value wont change in webpages
+     }
+
+ return (
+       <Cards className="ExpenseItem_container" >
+            <div className="ExpenseItemDetails">{title}</div>
+           <button onClick={ClickFunction}>Click Here</button>
+       </Cards> 
+   
+    ) ;
+}
+
+events 
+onPaste ={()=>{window.alert("Dont Paste)}} ;
+onCopy ={()=>{window.alert("Dont Copy)}} ;
+onDoubleClick={()=>{window.alert("Double Click")}} ;
+similary 
+onKeyUp , onKeyDown , Dragged
+IMP
+
+
+
+onKeyPress ={(event)=>{handPress(event)}}  //Write it in both TextField
+
+const handPress =(event)=>{
+    if(event.key == `Enter`){
+        addData();
+    }
+    console.log(event.key)
+}

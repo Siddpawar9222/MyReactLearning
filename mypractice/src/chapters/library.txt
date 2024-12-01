@@ -1,0 +1,12 @@
+Material ui
+bootstarp
+react-router-dom
+redux
+react-icon
+toastify
+react-loader-spinner
+json-server
+axios
+emailjs
+sliderjs
+aos

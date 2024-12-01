@@ -1,0 +1,25 @@
+00:00:00 -   Introduction
+00:18:40 -   Installation
+00:26:00 -   React App Folder Structure
+00:47:05 -   Understanding JSX
+01:13:48 -   Components in React & Import/Export
+01:51:25 -   Styling Components
+02:07:53 -   Props & Prop-types         
+02:31:22 -   Creating Movies Website
+03:01:09 -   React Dev Tools | If-Else Statement | ternary operator
+03:28:31 -   Introduction to React Hooks
+03:31:18 -   useState Hook Explained                 
+04:04:26 -   Record keeping project
+05:12:14 -   useEffect Hook Explained
+05:50:37 -   Events in React
+06:07:14 -   React-Router-Dom v6
+06:35:09 -   React-Router-Dom v6 Hooks
+07:42:31 -   Context API & useContext Explained
+08:13:34 -   useRef Hook Explained
+08:40:27 -   useReducer Hook Explained
+08:54:00 -   React Custom Hooks
+09:07:21 -   useMemo Hook Explained
+09:26:55 -   useCallback Hook Explained
+09:48:15 -   React Loaders & toastify
+10:15:58 -   React Class based Components
+11:00:13 -   React-Redux

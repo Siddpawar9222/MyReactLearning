@@ -1,0 +1,90 @@
+.ExpenseItem_container {
+  height: 15vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  /* border-radius: 0.8rem; */
+  margin: 2rem 0.2rem;
+  background-color: darkolivegreen;
+  position: relative;
+  /* box-shadow: 0 0.2rem 0.8rem black; */
+} 
+.ExpenseItemPrice ,
+.ExpenseItemDetails,
+.ExpenseItemDate {
+  margin: 0rem 1.5rem;
+  font-size: 1.9rem;
+}
+
+.ExpenseItemDetails {
+  color: white;
+  position: absolute;
+  left: 17rem;
+}
+.ExpenseItemPrice {
+  width: 12rem;
+  height: 5rem;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  border: 0.2rem solid white;
+  background-color: darkblue;
+  /* padding: 0.8rem; */
+  border-radius: 0.6rem;
+  color: azure;
+}
+.pack{
+  display: flex;
+  margin-right: 1rem;
+}
+
+@media (max-width: 492px) {
+  html {
+    font-size: 49%;
+  }
+
+  .ExpenseItem_container {
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ExpenseItemPrice,
+  .ExpenseItemDate {
+    margin: 0rem;
+  }
+  .ExpenseItemDetails {
+    color: white;
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-height: 459px){
+  html{
+    font-size: 49%;
+  }
+  .ExpenseItem_container {
+    height: 50vh;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ExpenseItemPrice,
+  .ExpenseItemDate {
+    margin: 0rem;
+  }
+  .ExpenseItemDetails {
+    color: white;
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-bottom: 1.2rem;
+  }
+}

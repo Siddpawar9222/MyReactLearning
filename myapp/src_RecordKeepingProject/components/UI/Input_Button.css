@@ -1,0 +1,14 @@
+
+.universal{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_Input{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem; 
+  }
+ 
+  

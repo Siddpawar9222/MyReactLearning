@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    font-size: 2rem ;
+    background-color: blue;
+    color: aliceblue;
+    margin: 1rem 0rem;
+    height:  5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     font-size: 4rem;
+}
+.headerName{
+    margin: 0rem 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+.divs{
+    margin: 0rem 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.Link{
+    text-decoration: none;
+    font-size: 3rem;
+}

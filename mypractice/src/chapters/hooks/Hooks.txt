@@ -1,0 +1,12 @@
+Hooks : 
+Allows you to use state and other React features in functional components. Before hooks, you could only manage state and lifecycle methods in class components. However, with hooks, you can now write reusable logic and stateful behavior directly inside functional components, making them more concise and easier to maintain.
+
+React Hooks :
+useState
+useEffect
+useContext
+useRef
+useReducer
+useMemo
+useCallback
+Custom Hooks
